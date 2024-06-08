@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import "./Feed.css"
-import CreateIcon from '@mui/icons-material/Create';
+import CreateIcon from './@mui/icons-material/Create';
 import Inputoption from './Inputoption';
-import ImageIcon from '@mui/icons-material/Image';
-import SubscriptionIcon from '@mui/icons-material/subscriptions'
-import EventNoteIcon from '@mui/icons-material/EventNote'
-import CalendarViewDayIcon from '@mui/icons-material/CalendarViewDay';
+import ImageIcon from './@mui/icons-material/Image';
+import SubscriptionIcon from './@mui/icons-material/subscriptions'
+import EventNoteIcon from './@mui/icons-material/EventNote'
+import CalendarViewDayIcon from './@mui/icons-material/CalendarViewDay';
 import Post from './Post';
 import { db } from './Firebase';
 import {  addDoc, collection, getDocs,  onSnapshot,  orderBy,  query,  serverTimestamp } from 'firebase/firestore';
