@@ -3,7 +3,7 @@ import "./Feed.css"
 import CreateIcon from './@mui/icons-material/Create';
 import Inputoption from './Inputoption';
 import ImageIcon from './@mui/icons-material/Image';
-import SubscriptionIcon from './@mui/icons-material/subscriptions'
+import SubscriptionIcon from './@mui/icons-material/Subscriptions'
 import EventNoteIcon from './@mui/icons-material/EventNote'
 import CalendarViewDayIcon from './@mui/icons-material/CalendarViewDay';
 import Post from './Post';
