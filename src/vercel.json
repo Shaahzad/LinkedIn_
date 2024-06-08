@@ -1,6 +1,0 @@
-{
-    "build": {
-      "external": ["@mui/icons-material"]
-    }
-  }
-  
