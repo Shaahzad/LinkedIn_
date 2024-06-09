@@ -8,7 +8,6 @@ const Headeroption = ({ avatar, Icon, title, onClick}) => {
   return (
     <div onClick={onClick} className='header-option'>
       {Icon && <Icon className='header-option-icon'/>}
-      {avatar && <Avatar  className='header-option-avatar'src={user?.photoUrl}>
       </Avatar>
         }
       <h3 className='header-option-title'>{title}</h3>    
